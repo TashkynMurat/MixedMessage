@@ -23,3 +23,8 @@ for (let key in outputs) {
     };
 };
 
+const message = (arr) => {
+    arr.forEach(element => console.log(element));
+} 
+
+message(mixedMessage);
